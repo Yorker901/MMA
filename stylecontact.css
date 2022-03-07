@@ -1,0 +1,47 @@
+h1{
+    font-family: 'Yeon Sung', cursive;
+    text-align: center;
+    font-size: 65px;
+    padding-top: 70px;
+    color: whitesmoke;
+}
+body::before{
+    content:'';
+    position: absolute;
+    background: center / cover no-repeat url("/static/contact.jpg");
+    height: 705px;
+    width: 100%;
+    top: 60px;
+    z-index: -1;
+}
+#contactform{
+    display: flex;
+    flex-direction: column;
+  /*  margin-left: 40px;*/
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 160px;
+}
+.myinput{
+    background-color: whitesmoke;
+    font-size: 16px;
+    width: 30%;
+    padding: 10px;
+    margin: 8px;
+    margin-left: 60px;
+    outline: none;
+    font-family: 'Yeon Sung', cursive;
+    border-radius: 8px;
+}
+.btn{
+    background-color: black;
+    color: white;
+    padding: 12px; 
+    margin: 12px;
+    margin-left: 60px;
+    font-size: 18px;
+    cursor: pointer;
+    width: 10%;
+    font-family: 'Yeon Sung', cursive;
+    border-radius: 8px;
+}

@@ -1,0 +1,228 @@
+body{
+    background-color: black;
+    height: 100%;
+    width: 100%;
+}
+.container{
+    background-color: transparent;
+    padding-top: 60px;
+    padding-bottom: 18px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.card-0{
+    height: 400px;
+    width: 1260px;
+    margin: 15px;
+}
+.card-0-box{
+    height: 400px;
+    width: 1260px;
+}
+.card-0-video-player{
+    height: 400px;
+    width: 1260px;
+}
+.card-0-video-player video{
+    height: inherit;
+}
+.card-content p{
+    color: white;
+
+
+}
+.card-1{
+    height: 250px;
+    width: 400px;
+    border-radius: 20px;
+    margin: 15px;    justify-content: center;
+    align-items: center;
+}
+.card-2{
+    height: 250px;
+    width: 400px;
+    border-radius: 20px;
+    margin: 15px;
+}
+.card-3{
+    height: 250px;
+    width: 400px;
+    border-radius: 20px;
+    margin: 15px;
+}
+.card-4{
+    height: 250px;
+    width: 400px;
+    border-radius: 20px;
+    margin: 15px;
+}
+.card-5{
+    height: 250px;
+    width: 400px;
+    border-radius: 20px;
+    margin: 15px;
+}
+.card-6{
+    height: 250px;
+    width: 400px;
+    border-radius: 20px;
+    margin: 15px;
+}
+.card-7{
+    height: 250px;
+    width: 400px;
+    border-radius: 20px;
+    margin: 15px;
+}
+.card-8{
+    height: 250px;
+    width: 400px;
+    border-radius: 20px;
+    margin: 15px;
+}
+.card-9{
+    height: 250px;
+    width: 400px;
+    border-radius: 20px;
+    margin: 15px;
+}
+.card-10{
+    height: 250px;
+    width: 400px;
+    border-radius: 20px;
+    margin: 15px;
+}
+.card-11{
+    height: 250px;
+    width: 400px;
+    border-radius: 20px;
+    margin: 15px;
+}
+.card-12{
+    height: 250px;
+    width: 400px;
+    border-radius: 20px;
+    margin: 15px;
+}
+.card-1::before{
+    content:'';
+    position: absolute;
+    background: center / cover no-repeat url("/static/SR-1.jpg");
+    height: 250px;
+    width: 400px;
+    z-index: -1;
+    opacity: 1;
+    border-radius: 20px;
+}
+.card-2::before{
+    content:'';
+    position: absolute;
+    background: center / cover no-repeat url("/static/SR-2.jpg");
+    height: 250px;
+    width: 400px;
+    z-index: -1;
+    opacity: 1;
+    border-radius: 20px;
+}
+.card-3::before{
+    content:'';
+    position: absolute;
+    background: center / cover no-repeat url("/static/SR-3.jpg");
+    height: 250px;
+    width: 400px;
+    z-index: -1;
+    opacity: 1;
+    border-radius: 20px;
+}
+.card-4::before{
+    content:'';
+    position: absolute;
+    background: center / cover no-repeat url("/static/sr-4.jpg");
+    height: 250px;
+    width: 400px;
+    z-index: -1;
+    opacity: 1;
+    border-radius: 20px;
+}
+.card-5::before{
+    content:'';
+    position: absolute;
+    background: center / cover no-repeat url("/static/SR-5.png");
+    height: 250px;
+    width: 400px;
+    z-index: -1;
+    opacity: 1;
+    border-radius: 20px;
+}
+.card-6::before{
+    content:'';
+    position: absolute;
+    background: center / cover no-repeat url("/static/SR-6.jpg");
+    height: 250px;
+    width: 400px;
+    z-index: -1;
+    opacity: 1;
+    border-radius: 20px;
+}
+.card-7::before{
+    content:'';
+    position: absolute;
+    background: center / cover no-repeat url("/static/SR-7.jpg");
+    height: 250px;
+    width: 400px;
+    z-index: -1;
+    opacity: 1;
+    border-radius: 20px;
+}
+.card-8::before{
+    content:'';
+    position: absolute;
+    background: center / cover no-repeat url("/static/SR-8.jpg");
+    height: 250px;
+    width: 400px;
+    z-index: -1;
+    opacity: 1;
+    border-radius: 20px;
+}
+.card-9::before{
+    content:'';
+    position: absolute;
+    background: center / cover no-repeat url("/static/SR-9.jpg");
+    height: 250px;
+    width: 400px;
+    z-index: -1;
+    opacity: 1;
+    border-radius: 20px;
+}
+.card-10::before{
+    content:'';
+    position: absolute;
+    background: center / cover no-repeat url("/static/SR-10.jpg");
+    height: 250px;
+    width: 400px;
+    z-index: -1;
+    opacity: 1;
+    border-radius: 20px;
+}
+.card-11::before{
+    content:'';
+    position: absolute;
+    background: center / cover no-repeat url("/static/SR-11.jpg");
+    height: 250px;
+    width: 400px;
+    z-index: -1;
+    opacity: 1;
+    border-radius: 20px;
+}
+.card-12::before{
+    content:'';
+    position: absolute;
+    background: center / cover no-repeat url("/static/SR-12.jpg");
+    height: 250px;
+    width: 400px;
+    z-index: -1;
+    opacity: 1;
+    border-radius: 20px;
+}

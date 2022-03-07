@@ -1,0 +1,24 @@
+doctype html
+html
+  head
+    title R.B.D Academy
+    block scripts
+    block style
+  body
+    nav#navbar
+        ul
+            div#logo
+              img(src="/static/img/logo.jpg")
+              | R.B.D
+            li #[a(href="/") HOME]
+            li #[a(href="/about") ABOUT]
+            li #[a(href="/services") SERVICES]
+            li #[a(href="/classes") CLASS INFO]
+            li #[a(href="/contact") CONTACT US]
+            li #[a(href="/registration") REGISTRATION] 
+
+            form#seachbar(action="/", method="post") 
+              input(type="text", Class="search",name="search", placeholder="Search.......")          
+    block content
+    footer#footer
+        | Copyright © 2022 R.B.D Academy.com | All rights reserved  

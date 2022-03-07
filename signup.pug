@@ -1,0 +1,23 @@
+extends layout.pug 
+
+block scripts
+    script(src='/static/index.js')
+
+block style 
+    style
+      include ../static/style.css
+      include ../static/signup.css
+
+block content
+        h1 Create an account   
+          form#signupform(action="#" method="post") 
+              input(type="text", Class="box",name="name", placeholder="Enter your Name")
+              input(type="email", Class="box",name="email", placeholder="Enter your Email")
+              input(type="phone no", Class="box",name="phone no", placeholder="Enter your Phone no.")
+              input(type="text", Class="box",name="username", placeholder="Choose a Usename")
+              input(type="password", Class="box",name="password", placeholder="Choose a Password")
+              button(Class="bittn")
+                  | Create your account 
+        h4 By creating an account you agree to our 
+        h5 #[a(href="/") Terms of Service and Privacy Policy.]
+           

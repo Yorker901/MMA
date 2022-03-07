@@ -1,0 +1,19 @@
+extends layout.pug 
+
+block scripts
+    script(src='/static/index.js')
+    script(src="https://kit.fontawesome.com/7fadca4e0d.js" crossorigin="anonymous")
+
+block style 
+    style
+      include ../static/style.css
+      include ../static/registration.css
+
+block content
+        h1 Login to R.B.D Academy  
+          form#loginform(action="#" method="post") 
+              input(type="text", Class="box",name="name", placeholder="Enter your Usename")
+              input(type="password", Class="box",name="password", placeholder="Enter your Password")
+              button(Class="bittn")
+                  | Log In
+        h3 Don't have an account? #[a(href="/signup") SIGNUP]

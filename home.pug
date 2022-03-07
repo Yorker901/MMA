@@ -1,0 +1,55 @@
+extends layout.pug 
+
+block scripts
+    script(src='/static/index.js')
+
+block style 
+    style
+      include ../static/style.css
+
+block content 
+    section#introSection 
+        div Welcome to R.B.D Academy of  Mix Martial Arts 
+        div#small Eat - Sleep - Fight - Repeat
+
+    section#missionSection 
+        h2 Our Mission     
+        div.card
+            h3 Martial Arts Perfection  
+            div.card-box
+                div.card-img
+                    img(src="/static/img/k1.jpg")
+
+                div.card-content
+                    p This is the best martial arts academy of delhi.    
+        div.card
+            h3 Fight the way as you like   
+            div.card-box
+                div.card-img
+                    img(src="/static/img/k2.jpg")
+
+                div.card-content
+                    p We are teaching every style of martial arts.
+        div.card
+            h3 Expert Trianing 
+            div.card-box
+                div.card-img
+                    img(src="/static/img/karate.jpg")
+
+                div.card-content
+                    p Get trianing by experts and best coaching.
+        div.card
+            h3 UFC Competitions  
+            div.card-box
+                div.card-img
+                    img(src="/static/img/k5.jpg")
+
+                div.card-content
+                    p Here you can participate in all types of competitions.
+    section#sponsorsSection 
+        h2 Our Sponsors     
+        div#sponsors
+            img(src="/static/img/s4.png", alt="Sponsor Image", Class="spImage")
+            img(src="/static/img/s2.png", alt="Sponsor Image", Class="spImage")
+            img(src="/static/img/s3.jpg", alt="Sponsor Image", Class="spImage")
+            img(src="/static/img/ss.png", alt="Sponsor Image", Class="spImage")

@@ -1,0 +1,42 @@
+extends layout.pug 
+
+block scripts
+    script(src='/static/index.js')
+
+block style 
+    style
+      include ../static/style.css
+      include ../static/services.css
+
+block content
+    .container 
+        div.card-0  
+            div.card-0-box
+                div.card-0-video-player
+                    video(width='100%' controls='' autoplay='')
+                        source(src='/static/tut.mp4') 
+        div.card-1 
+            div.card-content 
+                p GENERAL TRAINING    
+        div.card-2  
+            div.card-content
+        div.card-3
+            div.card-content
+        div.card-4  
+            div.card-content
+        div.card-5  
+            div.card-content
+        div.card-6  
+            div.card-content
+        div.card-7 
+            div.card-content    
+        div.card-8  
+            div.card-content
+        div.card-9
+            div.card-content
+        div.card-10  
+            div.card-content
+        div.card-11  
+            div.card-content
+        div.card-12  
+            div.card-content

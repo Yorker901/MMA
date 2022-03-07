@@ -1,0 +1,27 @@
+h1{
+    font-family: 'Yeon Sung', cursive;
+    text-align: center;
+    font-size: 65px;
+    padding-top: 70px;
+}
+h2{
+    font-family: 'Yeon Sung', cursive;
+    font-size: 30px;
+    margin: 20px;
+    font-weight: bold;
+}
+p{
+    font-family: 'Yeon Sung', cursive;
+    font-size: 20px;
+    margin: 20px;
+}
+body::before{
+    content:'';
+    position: fixed;
+    background: center / cover no-repeat url("/static/about.jpg");
+    height: 750px;
+    width: 100%;
+    top: 60px;
+    z-index: -1;
+    opacity: 1;
+}
